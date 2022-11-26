@@ -1,0 +1,67 @@
+<!--Santosh Yadav--!>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <!-- Page Needs Meta
+	=================================================== -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="sitemap_link" content="" />
+
+    <!-- Title
+	================================================== -->
+    <title>Virtual Med</title>
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="assets/images/favicon-16x16.png" />
+
+    <!-- Font
+    ================================================== -->
+    <link href="assets/font/stylesheet.css" rel="stylesheet" />
+
+    <!-- CSS Files
+	================================================== -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper vm__user_chatbot">
+      <div class="vm__container">
+        <p class="nav-between">
+          <a href="#" class="back-btn" title="back"
+            ><img src="assets/images/arrow-left.svg" alt=""
+          /></a>
+          <a href="login.html" class="logout-btn" title="Logout"
+            ><img src="assets/images/log-out.svg" alt="" /> Logout</a
+          >
+        </p>
+        <div class="chat-bot">
+          <div class="chat-header text-center">Medical Chatbot</div>
+          <div class="chat-body"></div>
+
+          <div class="chat-footer">
+            <form action="#">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Type your message"
+                  required
+                />
+                <button>Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
